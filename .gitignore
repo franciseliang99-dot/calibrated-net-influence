@@ -1,0 +1,29 @@
+# Credentials of any kind (never committed; the API key is read from the OS keychain at run time)
+*.key
+*.pem
+*.p12
+.env
+.env.*
+credentials*
+secret*
+token*
+
+# Local drafts and scratch work
+/quarantine/
+/scratch/
+*.local.md
+
+# Build output
+out/
+cache/
+broadcast/
+*.egg-info/
+
+# System noise
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# Generated from report/draft.md by report/build_html.py
+report/report.html

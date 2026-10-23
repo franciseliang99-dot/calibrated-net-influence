@@ -1,0 +1,343 @@
+{
+  "schema": 3,
+  "entry_id": "entries/apart-collusion",
+  "source": "entry-repo",
+  "signature_digest": "38e4102693e1efa6f32454aadfd31bf79cb9e2ad93b556c1b6a1ed851b777c50",
+  "file_count": 38,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "d4c37c12361358ac0e44c1e352913b632075a6da3a4ab7f23fc0ab06834a850a",
+      "rule": "exact-file",
+      "keys": [
+        ".gitignore"
+      ]
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "d6fbdb9ce6eca2b6a542f0753d129a914b1c51590c4ac5da09e64f29e6a7f301",
+      "rule": "exact-file",
+      "keys": [
+        "LICENSE"
+      ]
+    },
+    {
+      "path": "README.md",
+      "sha256": "a880d420aba2b23d549777bc471e0cde048101cfa8f47b2ecdcd55328a4257c4",
+      "rule": "exact-file",
+      "keys": [
+        "README.md"
+      ]
+    },
+    {
+      "path": "collusion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rule": "dir-code-ext",
+      "keys": [
+        "collusion/",
+        ".py"
+      ]
+    },
+    {
+      "path": "collusion/games.py",
+      "sha256": "856d6133050ce9a322dd4e0d30bd6407f595b11cf713906d5289dbb624caff50",
+      "rule": "dir-code-ext",
+      "keys": [
+        "collusion/",
+        ".py"
+      ]
+    },
+    {
+      "path": "collusion/llm.py",
+      "sha256": "cf15917e53c14baaf4eda1ad42df0669d7d953ee0ba2120cb427a6e2ab9e1d87",
+      "rule": "dir-code-ext",
+      "keys": [
+        "collusion/",
+        ".py"
+      ]
+    },
+    {
+      "path": "collusion/llm_game.py",
+      "sha256": "b9dbbbc1f571c4b95a60c27be6c85781e79d94f82f9ea831f574599ad23ddec7",
+      "rule": "dir-code-ext",
+      "keys": [
+        "collusion/",
+        ".py"
+      ]
+    },
+    {
+      "path": "collusion/stats.py",
+      "sha256": "5bdec9a3025aa8ba93073097c8eda1ebc09d756bec81288c32631afc1008134e",
+      "rule": "dir-code-ext",
+      "keys": [
+        "collusion/",
+        ".py"
+      ]
+    },
+    {
+      "path": "experiments/api_probes.py",
+      "sha256": "725fe82782026b1b3d92c7c19b62b61489e2bfc51d99afdde64de6d41c573b2c",
+      "rule": "dir-code-ext",
+      "keys": [
+        "experiments/",
+        ".py"
+      ]
+    },
+    {
+      "path": "experiments/e1_scripted.py",
+      "sha256": "ae5e17067be7667a2b3118822f2cc7c1fa3ce3f214ec94ddf0bd1d919c29deac",
+      "rule": "dir-code-ext",
+      "keys": [
+        "experiments/",
+        ".py"
+      ]
+    },
+    {
+      "path": "experiments/e2_analyze.py",
+      "sha256": "42df53b289eda86388651ef11de0fa0f58c99678802897e36521b843a3388f63",
+      "rule": "dir-code-ext",
+      "keys": [
+        "experiments/",
+        ".py"
+      ]
+    },
+    {
+      "path": "experiments/e2_llm.py",
+      "sha256": "b361e36d0b4991da9c01c9626aef30010578be717f83d09653e97e1b39604439",
+      "rule": "dir-code-ext",
+      "keys": [
+        "experiments/",
+        ".py"
+      ]
+    },
+    {
+      "path": "experiments/e2_plans.py",
+      "sha256": "dde8806713010b4975e0680638fc733e3176378377311e6a6dd35e5cad6b0cbe",
+      "rule": "dir-code-ext",
+      "keys": [
+        "experiments/",
+        ".py"
+      ]
+    },
+    {
+      "path": "experiments/fig_e1.py",
+      "sha256": "0099518a5cd3909a1bcb8fd0c097f8baa29a18aacc5be5ca8407a2fa3506535b",
+      "rule": "dir-code-ext",
+      "keys": [
+        "experiments/",
+        ".py"
+      ]
+    },
+    {
+      "path": "experiments/fig_e2.py",
+      "sha256": "0931a25c2b5ae8e5b728e6d32ae0dbf8f3261b49f3fd3c9b20727e7d0df7990e",
+      "rule": "dir-code-ext",
+      "keys": [
+        "experiments/",
+        ".py"
+      ]
+    },
+    {
+      "path": "experiments/run_e2_all.sh",
+      "sha256": "b730fc17faafb86e71df372cdbbc2fa42b5e985c7f72f31c9d2b1b4229f677f0",
+      "rule": "dir-code-ext",
+      "keys": [
+        "experiments/",
+        ".sh"
+      ]
+    },
+    {
+      "path": "figures/e1_confounders.md",
+      "sha256": "7fbea98e197c71da4176ff587502b7091a38483a489d17b6796584f3b2e809c3",
+      "rule": "exact-file",
+      "keys": [
+        "figures/e1_confounders.md"
+      ]
+    },
+    {
+      "path": "figures/e1_power.pdf",
+      "sha256": "2fa8c38479de17ecd3539e3c7d74d115ae4ed98422451f2330466f9dcf74910c",
+      "rule": "dir-code-ext",
+      "keys": [
+        "figures/",
+        ".pdf"
+      ]
+    },
+    {
+      "path": "figures/e1_power.png",
+      "sha256": "e1788c16a66e07e6fd7c021268d85e83232fd890d196abde91fe801eef2e3fe5",
+      "rule": "dir-code-ext",
+      "keys": [
+        "figures/",
+        ".png"
+      ]
+    },
+    {
+      "path": "figures/e2_plans.md",
+      "sha256": "dc6b227b586627337a5872c0b0e830ba82a67ece850944fc39b4df2cd1beebc1",
+      "rule": "exact-file",
+      "keys": [
+        "figures/e2_plans.md"
+      ]
+    },
+    {
+      "path": "figures/e2_planted.pdf",
+      "sha256": "d055401fe54a869256d150fb01b427da907af854b889df208d13a65f01a4c543",
+      "rule": "dir-code-ext",
+      "keys": [
+        "figures/",
+        ".pdf"
+      ]
+    },
+    {
+      "path": "figures/e2_planted.png",
+      "sha256": "ca38f729ff302c8cff6f6cbefb46afafd271938c1231c27be30b4ee9a3cfe7fb",
+      "rule": "dir-code-ext",
+      "keys": [
+        "figures/",
+        ".png"
+      ]
+    },
+    {
+      "path": "figures/e2_table.md",
+      "sha256": "19bb6c1b37e5e772678d40d01d859b766269d3fca465f17dcc2b49513398228d",
+      "rule": "exact-file",
+      "keys": [
+        "figures/e2_table.md"
+      ]
+    },
+    {
+      "path": "report/build_html.py",
+      "sha256": "34271618e319413b9ef736d466b1790482a6a9f19c2a17b2ff201938dfe32cf6",
+      "rule": "dir-code-ext",
+      "keys": [
+        "report/",
+        ".py"
+      ]
+    },
+    {
+      "path": "report/draft.md",
+      "sha256": "bbf19b5068e5e42f35ae3483182375d6e403b1d6085f95572a840daf3094c049",
+      "rule": "exact-file",
+      "keys": [
+        "report/draft.md"
+      ]
+    },
+    {
+      "path": "report/report.pdf",
+      "sha256": "0245416ed0581b4a58b22062c19262074d4e4d304c326023f6644c2d293c3e66",
+      "rule": "exact-file",
+      "keys": [
+        "report/report.pdf"
+      ]
+    },
+    {
+      "path": "results/api_probes.txt",
+      "sha256": "26b348e6af67d67268aba4e653fcd0a040e8eeabd46cd4aae957edb54045cb2c",
+      "rule": "dir-code-ext",
+      "keys": [
+        "results/",
+        ".txt"
+      ]
+    },
+    {
+      "path": "results/e1.json",
+      "sha256": "e8367effd4f5a64dfa1ca80d134a6c0d471245a845f2a54d916cf21d1adb9c20",
+      "rule": "dir-code-ext",
+      "keys": [
+        "results/",
+        ".json"
+      ]
+    },
+    {
+      "path": "results/e2/honest-mixed.jsonl",
+      "sha256": "a4e403e795f19335a830da96a6c2e289298f897ea69a1f8bfc62b0e42ba45c9a",
+      "rule": "dir-code-ext",
+      "keys": [
+        "results/",
+        ".jsonl"
+      ]
+    },
+    {
+      "path": "results/e2/honest.jsonl",
+      "sha256": "bd6d767d4036c3726b71a6673ff1f1555d9b15fc6998a756707e6c400e153ea4",
+      "rule": "dir-code-ext",
+      "keys": [
+        "results/",
+        ".jsonl"
+      ]
+    },
+    {
+      "path": "results/e2/team-chat.jsonl",
+      "sha256": "116f84897c6e2601a53a6c08491cea9b3166ac0b1650ab61f0d675592c923cc8",
+      "rule": "dir-code-ext",
+      "keys": [
+        "results/",
+        ".jsonl"
+      ]
+    },
+    {
+      "path": "results/e2/team-evade.jsonl",
+      "sha256": "6d1f65ae3027642314792a10f1a4eb1bface6523ac2317cb7c6ac5dc5c31ce21",
+      "rule": "dir-code-ext",
+      "keys": [
+        "results/",
+        ".jsonl"
+      ]
+    },
+    {
+      "path": "results/e2/team.jsonl",
+      "sha256": "9c87221d0fbd840933db12dc45480f698ac734926a83b3ea38ff11e39f53ce8d",
+      "rule": "dir-code-ext",
+      "keys": [
+        "results/",
+        ".jsonl"
+      ]
+    },
+    {
+      "path": "results/e2_discarded/honest-mixed-k2.7.jsonl",
+      "sha256": "df2b45111f76cb0cb4c053f4be31e469a6762f7dbe4b2d36ffe1d5b3b4090030",
+      "rule": "dir-code-ext",
+      "keys": [
+        "results/",
+        ".jsonl"
+      ]
+    },
+    {
+      "path": "results/e2_discarded/team-chat-anyword-parser.jsonl",
+      "sha256": "75c959715d302c417a615ebc8d9768aab4c50e531cd2b9392d171427a3a9cf09",
+      "rule": "dir-code-ext",
+      "keys": [
+        "results/",
+        ".jsonl"
+      ]
+    },
+    {
+      "path": "results/e2_discarded/team-evade-anyword-parser.jsonl",
+      "sha256": "b407e64c8f3d8d51fb6e59dacfa72491a0cf2aafbd7e7559cf0135725f273c5a",
+      "rule": "dir-code-ext",
+      "keys": [
+        "results/",
+        ".jsonl"
+      ]
+    },
+    {
+      "path": "results/e2_summary.json",
+      "sha256": "3bd1cc4d2b3316f64cec6ddc8fce257b94adb3179d3dae7ce31d90571511defc",
+      "rule": "dir-code-ext",
+      "keys": [
+        "results/",
+        ".json"
+      ]
+    },
+    {
+      "path": "tests/test_stats.py",
+      "sha256": "5299bb8f3befcd851ddb2db7a45127e832e0e7ed1905e8291268b661b5f36b49",
+      "rule": "dir-code-ext",
+      "keys": [
+        "tests/",
+        ".py"
+      ]
+    }
+  ]
+}
