@@ -23,7 +23,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "a880d420aba2b23d549777bc471e0cde048101cfa8f47b2ecdcd55328a4257c4",
+      "sha256": "82168cf2984ed060f63c557c32872b1c0b2e8aa1ed187fbbebe0b9f4da939663",
       "rule": "exact-file",
       "keys": [
         "README.md"
@@ -40,7 +40,7 @@
     },
     {
       "path": "collusion/games.py",
-      "sha256": "856d6133050ce9a322dd4e0d30bd6407f595b11cf713906d5289dbb624caff50",
+      "sha256": "bdf81ebff65a0234a7d8fc4edbab59740f48ea3f2830ec7bb96016d9147c52d7",
       "rule": "dir-code-ext",
       "keys": [
         "collusion/",
@@ -217,7 +217,7 @@
     },
     {
       "path": "report/draft.md",
-      "sha256": "bbf19b5068e5e42f35ae3483182375d6e403b1d6085f95572a840daf3094c049",
+      "sha256": "b4093b7578bfc2a8f6c8aded27ce7f211bcf53e921aa71d2d8342eae9330aab6",
       "rule": "exact-file",
       "keys": [
         "report/draft.md"
@@ -225,7 +225,7 @@
     },
     {
       "path": "report/report.pdf",
-      "sha256": "0245416ed0581b4a58b22062c19262074d4e4d304c326023f6644c2d293c3e66",
+      "sha256": "15a74c489b6292b0c3294d00f9841f9fdaa55e3dff95ffc55b0fc84afc1107a6",
       "rule": "exact-file",
       "keys": [
         "report/report.pdf"

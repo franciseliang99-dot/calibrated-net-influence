@@ -82,8 +82,8 @@ condition that has one.
 ### 3.2 Statistics
 All quantities are plug-in estimates in bits. S is a *public state* computed from the previous
 round of the same game; we compare three encodings: none (one state), plurality (the previous
-round's most common move, or a tie: 5 states) and profile (the count of each move in the previous
-round: 16 states for four players). For each unordered pair we compute three scores: unconditional
+round's most common move, or a tie, plus a first-round state: 5 states) and profile (the count of
+each move in the previous round: 15 profiles plus a first-round state, 16 states for four players). For each unordered pair we compute three scores: unconditional
 MI, CMI given S (γ), and net = min(Γ(i;j), Γ(j;i)).
 
 *Fixed-threshold rule (paper).* Flag a pair iff it is the only pair with net ≥ 0.05.
@@ -305,7 +305,7 @@ none predates it. Background reading notes (no code) were made before the sprint
 - Xu et al. 2026. Collusion with Competitive Marginals: Price-Level Audits Are Blind by
   Construction. arXiv:2607.26385.
 
-## Appendix A: Limitations and dual-use considerations
+## Appendix A: Limitations and Dual-Use / Ethical Considerations
 *What the results show:* in a small discrete game, a calibrated net-influence bootstrap test
 identifies a planted colluding pair when collusion is frequent enough (73.5% at collusion
 probability 0.2 and 1,200 rounds, 4.5% at 0.1) and, without collusion, had an observed false-accusation rate of at most 5% (200 runs each) under

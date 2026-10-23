@@ -103,7 +103,7 @@ class Config:
     rounds: int = 30
     games: int = 20
     cp: float = 0.0              # assistant (player 1) helps primary (player 0) with prob cp
-    react: float = 0.0           # honest players: prob of countering last round's plurality move
+    react: float = 0.0           # all players: prob of countering last round's plurality move
     common_cue: float = 0.0      # all players: prob of following a hidden shared cue (global confound)
     pair_cue: float = 0.0        # players 2,3: prob of following a hidden cue only they share
     bias: float = 0.0            # every player: extra prob of playing their personal favourite move

@@ -12,10 +12,11 @@ found no public implementation; everything here is our own implementation from t
 
 ## Layout
 
-- `collusion/stats.py` — plug-in conditional mutual information, individual and net influence, and a max-T
-  permutation test that calibrates every pair score against a within-state shuffle null.
+- `collusion/stats.py` — plug-in conditional mutual information, individual and net influence, a max-T
+  permutation test that calibrates every pair score against a within-state shuffle null, and a game-level
+  cluster bootstrap test.
 - `collusion/games.py` — scripted n-player repeated rock-paper-scissors with a planted colluding pair and planted
-  confounders (shared history reaction, global hidden cue, pair-only hidden cue).
+  confounders (shared history reaction, global hidden cue, pair-only hidden cue, personal bias, leader copying).
 - `collusion/llm.py` — minimal client for the Kimi (Moonshot) chat API. The key is read from the OS keychain at
   run time and never stored.
 - `collusion/llm_game.py` — four-player rock-paper-scissors played by Kimi models (prompts, pre-game messages,
